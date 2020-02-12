@@ -1,5 +1,5 @@
 body{
-  font-size: 14px;
+  font-size: 16px;
   color: #333;                                  /* quite black for words */
   background-color: #fff;
   letter-spacing: 1px;
@@ -355,7 +355,7 @@ body{
 .navbar-brand,
 .navbar-brand:hover{
   color: #fff;
-  font-size: 17px;
+  font-size: 25px;
   padding-top: 5px;
 }
 

@@ -90,7 +90,17 @@ $(document).ready(function() {
 
         });
 
-        $("[data-fancybox]").fancybox();
+        $("[data-fancybox]").fancybox({
+          helpers:
+         {
+               overlay:
+               {
+                      css: { 'background': 'rgba(0, 0, 255, 0.9)',
+                              'image-resolution': '500x500'
+                    }
+               }
+         }
+        });
 
 
 

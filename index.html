@@ -8,8 +8,6 @@
 
     <link rel="stylesheet" href="css/superslides.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/timeline.css">
-    <link rel="stylesheet" href="/css/projects.css">
     <!-- fontawesome CSS CDN -->
     <script src="https://kit.fontawesome.com/ed14bb519d.js" crossorigin="anonymous"></script>
     <!-- bootstrap CSS CDN -->
@@ -75,13 +73,10 @@
             <a class="nav-link" href="#stats">MY STATS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#timeline-content">COURSES TAKEN</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">MY PROJECTS</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#contact">CONTACT ME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">MY GALLERY</a>
           </li>
         </ul>
       </div>
@@ -271,60 +266,18 @@
         </div>
     </div>
 
-    <div id="timeline-content" class="col-md-12 text-center">
-          <h1>ONLINE COURSES TAKEN</h1>
+    <div id="contact" class="contactSection section">
 
-          <ul class="timeline">
-            <li class="event" data-date="Febuary 24, 2019">
-              <h3>Complete Python Bootcamp: Go from zero to hero in Python 3</h3>
-              <p>The best python bootcamp there is, this course is highly informative and straight-forward.
-                 The instructor explains the language very well, helping beginners to follow through the lectures
-                 easily without much confusion. Highly recommend for learning Python 3</p>
+      <div class="col-md-12 text-center">
+        <h2>I'd love to hear from you!</h2>
+        <p class="subHeading">Feel free to contact me via e-mail if you are interested to work on any projects with me or if
+          you have any questions, <br> I will be happy to chat and discuss with you.
+        </p>
+        <a href="mailTo:nyihein97@gmail.com" class="contactButton">GET IN TOUCH WITH ME!</a>
 
-              <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
-
-              <p><strong>Source:</strong> Udemy</p>
-
-              <p><strong>Instructor:</strong> Jose Portilla</p>
-              </li>
-              <li class="event" data-date="October 15, 2019">
-                <h3>Make a Responsive Portfolio Website: JavaScript and HTML</h3>
-                <p>After learning Python, I wanted to make an online portfolio for myself as an aspiring software engineer,
-                   I knew this was a good skil investment. I started by learning HTML, CSS and JavaScript with the help of Jon Duckett's books.
-                   With my newfound knowledge, I was able to follow along and learn from an amazing instructor, Reece Kenney. Very well taught and great for beginner developers!</p>
-
-                <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
-
-                <p><strong>Source:</strong> Udemy</p>
-
-                <p><strong>Instructor:</strong> Reece Kenney</p>
-              </li>
-              <li class="event" id="date" data-date="January 14, 2020">
-                <h3>Python and Django Full Stack Web Developer Bootcamp</h3>
-                <p>I wanted to become a full-stack web developer and this course helped me with it. During this period, I was still in
-                   I was still serving my 2 year NS and was busy with it, resulting me to take a longer time to learn. But nonetheless, this
-                   course was impactful and helps the basics of back-end. Recommended to go for Django especially after learning Python.</p>
-
-                <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
-
-                <p><strong>Source:</strong> Udemy</p>
-
-                <p><strong>Instructor:</strong> Jose Portilla</p>
-              </li>
-
-              <li class="event" data-date="January 25, 2020">
-                <h3>Learning Python for Data Analysis and visualization</h3>
-                <p>As the world is producing millions or close to billions of data daily, we have to learn to analyse and examine them. We use AI and Machine Learning to
-                   capture these data and simplify them for us to understand. This skill set is the future and this course helps to better understand the fundamentals of it.</p>
-
-                <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
-
-                <p><strong>Source:</strong> Udemy</p>
-
-                <p><strong>Instructor:</strong> Jose Portilla</p>
-              </li>
-            </ul>
       </div>
+
+    </div>
 
     <div id="portfolio" class="section">
       <div class="container">
@@ -332,22 +285,29 @@
           <div class="row">
 
             <div class="heading">
-              <h1>PROJECTS</h1>
+              <h2>GALLERY</h2>
+            </div>
+
+            <div class="filter">
+              <ul id="filters">
+                <li><a href="" data-filter='*' class="current">ALL</a></li>
+                <li><a href="" data-filter='.website'>WEBSITE</a></li>
+                <li><a href="" data-filter='.apps'>APPS</a></li>
+                <li><a href="" data-filter='.game'>GAMES</a></li>
+              </ul>
             </div>
 
             <div class="itemsContainer">
               <ul class="items">
-                <li onclick="" class="col-xs-6 col-sm-6 col-md-3 col-lg-6">           <!-- for phones, tablets, desktop and large desktop respectively -->
+                <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">           <!-- for phones, tablets, desktop and large desktop respectively -->
 
                   <div class="item">
-                    <img src="media/pic1.jpg" alt="Overwatch Companion" height="280">
+                    <img src="media/overwatch_companion/main_page_and_menu.PNG" alt="Overwatch Companion" height="280">
 
                     <div class="icons">
 
-                      <a href="media/overwatch_companion/main_page_and_menu.PNG" title="View image" class="openButton" data-fancybox data-caption= "As an avid gamer, there is a Multiplayer video game that I enjoy playing called Overwatch
-                              <br>The game is popular but, there are not many mobile applications for the in-game statistics such as point systems, tips, maps and so on<br>This made me want to create my own for my satisfactory needs, but I wasn't
-                              familiar with app development and so I <br> started by making prototypes of how the app should look like using AdobeXD.<br>This is the main menu of the application<br><br>In Progress 🔴<br><br><strong>Overwatch Companion - Main Menu (Prototype)</strong>">
-                        <p><b>OVERWATCH COMPANION MAIN-MENU</b></p>
+                      <a href="media/overwatch_companion/main_page_and_menu.PNG" title="View image" class="openButton" data-fancybox data-caption= "Overwatch companion - main menu">
+                        <i class="fa fa-search"></i>
                       </a>
 
                     </div>
@@ -358,16 +318,15 @@
 
                 </li>
 
-                <li onclick="" class="col-xs-6 col-sm-6 col-md-3 col-lg-6">           <!-- for phones, tablets, desktop and large desktop respectively -->
+                <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">           <!-- for phones, tablets, desktop and large desktop respectively -->
 
                   <div class="item">
-                    <img src="media/pic2.jpg" alt="Overwatch Companion" height="280">
+                    <img src="media/overwatch_companion/heroes_square.PNG" alt="Overwatch Companion" height="280">
 
                     <div class="icons">
 
-                      <a href="media/overwatch_companion/heroes_profile.PNG" title="View image" class="openButton" data-fancybox data-caption= "The same Overwatch mobile app I'm working on<br>This is the Hero/character screen Informations of
-                              the application<br><br><br><br>In Progress 🔴<br><br><strong>Overwatch companion - Hero Informations (Prototype)</strong>">
-                        <p><b>OVERWATCH COMPANION HERO INFOMATIONS</b></p>
+                      <a href="media/overwatch_companion/heroes.PNG" title="View image" class="openButton" data-fancybox data-caption= "Overwatch companion - main menu">
+                        <i class="fa fa-search"></i>
                       </a>
 
                     </div>
@@ -378,16 +337,34 @@
 
                 </li>
 
-                <li onclick="" class="col-xs-6 col-sm-6 col-md-3 col-lg-6">           <!-- for phones, tablets, desktop and large desktop respectively -->
+                <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">           <!-- for phones, tablets, desktop and large desktop respectively -->
 
                   <div class="item">
-                    <img src="media/pic3.jpg" alt="Overwatch Companion" height="280">
+                    <img src="media/overwatch_companion/heroes_profile_square.PNG" alt="Overwatch Companion" height="280">
 
                     <div class="icons">
 
-                      <a href="media/portfolio_website/about_me.PNG" title="View image" class="openButton" data-fancybox data-caption= "This project is what you're in right now, my online portfolio project</br> It took me a good amount of
-                              time to finish it properly and satisfyingly and every hour invested in this project was worth-while.</br>Credits to instructor Reece Kenney for his guided teachings! I have learnt a lot, thank you. <br><br>Project Finished ✅<br><br><strong>Online Portfolio</strong>">
-                        <p><b>ONLINE PORTFOLIO</b></p>
+                      <a href="media/overwatch_companion/heroes_profile.PNG" title="View image" class="openButton" data-fancybox data-caption= "Overwatch companion - main menu">
+                        <i class="fa fa-search"></i>
+                      </a>
+
+                    </div>
+
+                    <div class="imageOverlay"></div>
+
+                  </div>
+
+                </li>
+
+                <li onclick="" class="website col-xs-6 col-sm-4 col-md-3 col-lg-3">           <!-- for phones, tablets, desktop and large desktop respectively -->
+
+                  <div class="item">
+                    <img src="media/portfolio_website/about_me.PNG" alt="Overwatch Companion" height="280">
+
+                    <div class="icons">
+
+                      <a href="media/portfolio_website/about_me.PNG" title="View image" class="openButton" data-fancybox data-caption= "Overwatch companion - main menu">
+                        <i class="fa fa-search"></i>
                       </a>
 
                     </div>
@@ -401,21 +378,8 @@
               </ul>
             </div>
 
-          </div>
         </div>
-    </div>
-
-    <div id="contact" class="contactSection section">
-
-      <div class="col-md-12 text-center">
-        <h2>I'd love to hear from you!</h2>
-        <p class="subHeading">Feel free to contact me via e-mail if you are interested to work on any projects with me or if
-          you have any questions, <br> I will be happy to chat and discuss with you.
-        </p>
-        <a href="mailTo:nyihein97@gmail.com" class="contactButton">GET IN TOUCH WITH ME!</a>
-
       </div>
-
     </div>
 
     <div class="copyrightSection">
@@ -431,7 +395,6 @@
     <script src="js/jquery.easypiechart.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/typed.min.js"></script>
-    <script src="js/projects.js"></script>
     <!-- Popper JS CDN + bootstrap JS CDN  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
